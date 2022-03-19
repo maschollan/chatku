@@ -8,6 +8,8 @@ app.get("/", function (req, res) {
     res.sendFile(__dirname + "/index.html");
 });
 
+const PORT = process.env.PORT || 8080;
+
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
     cors: {
@@ -37,4 +39,4 @@ io.on("connection", function (socket) {
     });
 });
 
-httpServer.listen(3000);
+httpServer.listen(PORT);
