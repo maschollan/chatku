@@ -3,5 +3,25 @@
     "express": "^4.17.3",
     "socket.io": "^4.4.1"
   },
-  "type": "module"
+  "type": "module",
+  "name": "realtime-chat",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maschollan/chatku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maschollan/chatku/issues"
+  },
+  "homepage": "https://github.com/maschollan/chatku#readme",
+  "description": ""
 }
