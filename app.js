@@ -5,7 +5,7 @@ import { Server } from "socket.io";
 const app = express();
 
 app.get("/", function (req, res) {
-    res.sendFile(__dirname + "/index.html");
+    res.send("hello world");
 });
 
 const PORT = process.env.PORT || 8080;
